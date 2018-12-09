@@ -31,9 +31,7 @@ froup => 'root',
 mode =>  '0644'
 content => '
 
-this sever is property od xyz inx.
-
-',
+      this sever is property od xyz inx.',
 
 
 

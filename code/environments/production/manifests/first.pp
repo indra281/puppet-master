@@ -7,3 +7,12 @@ user {  'deploy':
   managehome  => true,
 
 }
+
+user { 'indrajeet':
+
+  ensure    => present,
+  uid       => 5002,
+  home      => '/home/indrajeet,
+  password  => '$1$xPN0nNZx$EhtXgRqwMA6epESbfO3t90',
+  
+}

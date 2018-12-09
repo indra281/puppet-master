@@ -12,7 +12,8 @@ user { 'indrajeet':
 
   ensure    => present,
   uid       => 5002,
-  home      => '/home/indrajeet',
+  home      => '/home/indrajeet'git,
   password  => '$1$xPN0nNZx$EhtXgRqwMA6epESbfO3t90',
+  managehome => true,
   
 }

@@ -28,8 +28,12 @@ ensure => absent,
 file { '/etc/motd':
 owner => 'root',
 froup => 'root',
-mode =>  '0644'
-content => 'this sever is property od xyz inx.',
+mode =>  '0644',
+content => '
+
+   this sever is property od xyz inx.
+   
+   ',
 
 }
 

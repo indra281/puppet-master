@@ -17,3 +17,17 @@ user { 'indrajeet1':
   managehome => true,
   
 }
+
+
+package { 'tree':
+ensure    => present
+
+}
+
+package {  ' git':
+
+ensure => present
+
+
+
+}

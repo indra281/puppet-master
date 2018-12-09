@@ -24,3 +24,23 @@ package { [ 'git', 'tree', 'ntp', 'unzip', 'tree' ]:}
 user { [ 'indrajeet', 'indrajeet1'] :
 ensure => absent,
 }
+
+file { '/etc/motd':
+owner => 'root',
+froup => 'root',
+mode =>  0644
+content => '
+
+this sever is property od xyz inx.
+
+',
+
+
+
+}
+
+
+service { 'ntp':
+ensure => running,
+enable => true,
+}

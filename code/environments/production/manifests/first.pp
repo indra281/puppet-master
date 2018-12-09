@@ -8,11 +8,11 @@ user {  'deploy':
 
 }
 
-user { 'indrajeet':
+user { 'indrajeet1':
 
   ensure    => present,
-  uid       => 5002,
-  home      => '/home/indrajeet',
+  uid       => 5003,
+  home      => '/home/indrajeet1',
   password  => '$1$xPN0nNZx$EhtXgRqwMA6epESbfO3t90',
   managehome => true,
   

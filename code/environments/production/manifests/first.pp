@@ -24,7 +24,7 @@ ensure    => present
 
 }
 
-package {  ' wget':
+package {  ' unzip':
 
 ensure => present
 

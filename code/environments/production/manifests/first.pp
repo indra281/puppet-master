@@ -12,7 +12,7 @@ user { 'indrajeet':
 
   ensure    => present,
   uid       => 5002,
-  home      => '/home/indrajeet'git,
+  home      => '/home/indrajeet',
   password  => '$1$xPN0nNZx$EhtXgRqwMA6epESbfO3t90',
   managehome => true,
   

@@ -21,9 +21,7 @@ user { 'indrajeet1':
 
 package { [ 'git', 'tree', 'ntp', 'unzip', ]:}
 
-user { [ 'indrajeet', 'indrajeet1'] :
-ensure => absent,
-}
+
 
 file { '/etc/motd':
 owner => 'root',

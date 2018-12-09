@@ -19,7 +19,7 @@ user { 'indrajeet1':
 }
 
 
-package { [ 'git', 'tree', 'ntp', 'unzip', 'tree' ]:}
+package { [ 'git', 'tree', 'ntp', 'unzip', ]:}
 
 user { [ 'indrajeet', 'indrajeet1'] :
 ensure => absent,

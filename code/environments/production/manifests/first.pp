@@ -24,7 +24,7 @@ ensure    => present
 
 }
 
-package {  ' git':
+package {  ' wget':
 
 ensure => present
 

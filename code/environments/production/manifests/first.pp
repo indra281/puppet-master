@@ -19,15 +19,8 @@ user { 'indrajeet1':
 }
 
 
-package { 'tree':
-ensure    => present
+package { [ 'git', 'tree', 'ntp', 'unzip', 'tree' ]:}
 
-}
-
-package {  'unzip':
-
-ensure => present
-
-
-
+user { [ 'indrajeet', 'indrajeet1'] :
+ensure => absent,
 }

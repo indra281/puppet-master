@@ -24,7 +24,7 @@ ensure    => present
 
 }
 
-package {  ' unzip':
+package {  'unzip':
 
 ensure => present
 

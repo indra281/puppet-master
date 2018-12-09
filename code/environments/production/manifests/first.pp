@@ -25,7 +25,7 @@ package { [ 'git', 'tree', 'ntp', 'unzip', ]:}
 
 file { '/etc/motd':
 owner => 'root',
-froup => 'root',
+roup => 'root',
 mode =>  '0644',
 content => '
 

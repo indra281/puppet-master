@@ -1,6 +1,6 @@
 class tomcat::service {
 
-    service { tomcat':
+    service { 'tomcat':
     ensure => running,
     }
 }

@@ -8,6 +8,7 @@ node nginx-prod2 {
     notifiy { "Nginx Prod 2 Block ":}
 
     include tomcat
+    include prefs
 
     
 }

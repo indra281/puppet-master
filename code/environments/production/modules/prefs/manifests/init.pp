@@ -44,5 +44,7 @@
 #
 class prefs {
 
+    include prefs::config
+
 
 }

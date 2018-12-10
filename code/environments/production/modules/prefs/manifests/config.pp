@@ -1,15 +1,15 @@
 class perfs::config {
 
 
-nitify { "print the perfs":}
+notify { "print the perfs":}
 
 
 message => "
 
 favorite clouur = ${colour}
-favorite car = ${car
+favorite car = ${car}
 
 
-"}
+"
 
 }

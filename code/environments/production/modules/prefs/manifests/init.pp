@@ -42,7 +42,7 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class prefs {
+class prefs inherits prefs::params {
 
     include prefs::config
 

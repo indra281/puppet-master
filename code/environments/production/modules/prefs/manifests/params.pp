@@ -1,5 +1,5 @@
 class prefs::params {
 
-    $clour = 'blue'
+    $colour = 'blue'
     $car = 'ford'
 }

@@ -6,4 +6,5 @@ node 'app-1' {
 node nginx-prod2 {
 
     include tomcat::install
+    include java::install
 }

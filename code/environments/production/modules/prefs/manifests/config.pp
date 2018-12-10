@@ -1,4 +1,4 @@
-class perfs::config {
+class prefs::config {
 
 
 notify { "print the perfs":

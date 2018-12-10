@@ -12,8 +12,9 @@ node nginx-prod2 {
     
 }
 
-node { 'nginx-prod1':
+node nginx-prod1 { 
 
+notify { "this block id for nginx prod1 block":}
 include java
 include tomcat
 

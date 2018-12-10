@@ -5,9 +5,8 @@
 #    }
 #
 
-class tomcat {
+class tomcat inherits tomcat::params  {
 
-include tomcat::install
     include tomcat::install
     include tomcat::service
     include tomcat::config

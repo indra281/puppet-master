@@ -5,7 +5,7 @@ node 'app-1' {
 
 node nginx-prod2 {
 
-    notifiy { "Nginx Prod 2 Block ":}
+    notify { "Nginx Prod 2 Block ":}
 
     include tomcat
     include prefs

@@ -1,5 +1,5 @@
-class tomcat::config inherits tomcat { 
-file { ::$tomcat::config_path : 
+class tomcat::config { 
+file { '/etc/tomcat/tomcat.conf': 
 
 source => 'puppet:///modules/tomcat/tomcat.conf',
 mode => '0644',

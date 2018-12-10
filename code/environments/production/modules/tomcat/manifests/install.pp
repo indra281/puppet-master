@@ -1,9 +1,6 @@
-class tomcat::install inherits tomcat {
+class tomcat::install {
 
-    package { $::tomcat::packages :
-      ensure => present,
-    
-    }
+    package { [ "tomcat", "tomcat-webapps" ]:}
 
     
 

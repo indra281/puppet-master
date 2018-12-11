@@ -1,5 +1,7 @@
 class java::install inherits java { 
-    package { $::java::package_name:
+    package { $::java::packages:
+
+    ensure => present,
     
     
 

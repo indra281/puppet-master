@@ -42,7 +42,7 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class java {
+class java inherits java::params {
 
 include java::install
 }

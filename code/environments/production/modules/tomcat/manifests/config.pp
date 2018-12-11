@@ -5,7 +5,7 @@ source => 'puppet:///modules/tomcat/tomcat.conf',
 mode => '0644',
 owner => $::tomcat::user,
 group => $::tomcat::group,
-require => package [ 'tomcat', 'tomcat-webapps']
+#require => package [ 'tomcat', 'tomcat-webapps']
 
 }
 

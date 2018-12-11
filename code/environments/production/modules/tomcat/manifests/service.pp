@@ -1,6 +1,8 @@
-class tomcat::service {
+class tomcat::service inherits tomcat {
 
-    service { 'tomcat':
-    ensure => running,
+    service { $::tocat::service_name :
+    ensure => $::tomcat::service_state,
+    enable => $::tomcat::service_enable,
+
     }
 }

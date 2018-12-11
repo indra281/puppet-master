@@ -1,6 +1,11 @@
-class tomcat::install {
+class tomcat::install inherits tomcat::params {
 
-    package { [ "tomcat", "tomcat-webapps" ]:}
+    package { $::tomcat::packages :
+    
+    ensure => $::tomcat::user,
+    
+    
+    }
 
     
 

@@ -5,7 +5,7 @@ source => 'puppet:///modules/tomcat/tomcat.conf',
 mode => '0644',
 owner => $::tomcat::user,
 group => $::tomcat::group,
-notify => service [ 'service']
+#notify => service [ 'service']
 
 }
 

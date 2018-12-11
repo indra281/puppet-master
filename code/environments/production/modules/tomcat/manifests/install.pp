@@ -1,4 +1,4 @@
-class tomcat::install inherits tomcat::params {
+class tomcat::install inherits tomcat {
 
     package { $::tomcat::packages :
     

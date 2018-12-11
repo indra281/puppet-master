@@ -1,4 +1,4 @@
-node nginx-prod1 {
+node app-1 {
 
     
 

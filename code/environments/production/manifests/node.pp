@@ -1,4 +1,4 @@
-node nginx-prod2 {
+node nginx-prod1 {
 
     
 
